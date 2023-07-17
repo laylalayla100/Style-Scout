@@ -9,13 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            /*@START_MENU_TOKEN@*/Text("Content")/*@END_MENU_TOKEN@*/
         }
-        .padding()
     }
 }
 
